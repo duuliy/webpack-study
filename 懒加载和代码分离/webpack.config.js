@@ -6,6 +6,21 @@ module.exports = {
   entry: {
     index: './src/index.js'
   },
+  //防止重复
+  optimization: {
+    runtimeChunk: {
+         name: 'common' 
+    },
+    splitChunks: {
+        cacheGroups: {
+            commons: {
+                test: /[\\/]node_modules[\\/]/,
+                name: "common",
+                chunks: "all"
+            }
+        }
+    }
+},
   plugins: [
     new HTMLWebpackPlugin({
       title: 'Code Splitting'
