@@ -67,7 +67,7 @@
     "_commander@2.13.0@commander": "^2.13.0",
     "_commondir@1.0.1@commondir": "^1.0.1",
     "_component-emitter@1.2.1@component-emitter": "^1.2.1",
-    "_concat-map@0.0.1@concat-map": "^0.0.1",
+    "_concat-map@0.0.1@concat-map": "^0.0.1" ,
     "_concat-stream@1.6.2@concat-stream": "^1.6.2",
     "_console-browserify@1.1.0@console-browserify": "^1.1.0",
     "_constants-browserify@1.0.0@constants-browserify": "^1.0.0",
