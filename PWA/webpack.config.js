@@ -13,7 +13,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Progressive Web Application"
     }),
-    new WorkboxPlugin.GenerateSW({
+    new WorkboxPlugin.GenerateSW({  // 在这里输入要缓存的东西，eg:预缓存中排除 图片
       // 这些选项帮助 ServiceWorkers 快速启用
       // 不允许遗留任何“旧的” ServiceWorkers
       clientsClaim: true,
